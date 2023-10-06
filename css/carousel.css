@@ -8,6 +8,11 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
+img {
+  width: 476px;
+  height: 376px;
+}
+
 a#login {
   margin-left: 850px;
 }

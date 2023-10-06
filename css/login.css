@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background: lightgray;
+  background: #c0c0c0;
 }
 
 .container {
@@ -162,7 +162,8 @@ form .signin__btn:hover {
 }
 
 .google__btn,
-.github__btn {
+.github__btn,
+.kakao__btn {
   display: block;
   width: 90%;
   max-width: 680px;
@@ -182,6 +183,14 @@ form .signin__btn:hover {
   box-shadow: 0 15px 30px rgba(91, 144, 240, 0.36);
   transition: 0.2s linear;
 }
+
+.kakao__btn {
+  background: yellow;
+  color: white;
+  box-shadow: 0 15px 30px rgba(91, 144, 240, 0.36);
+  transition: 0.2s linear;
+}
+
 .google__btn.google__btn .fa,
 .github__btn.google__btn .fa {
   font-size: 20px;
