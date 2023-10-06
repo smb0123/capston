@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background: #c0c0c0;
+  background: white;
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  color: #e91e63;
+  color: black;
   font-size: 48px;
   letter-spacing: -3px;
   text-align: center;
@@ -92,9 +92,9 @@ form .input__block input {
   max-width: 680px;
   height: 50px;
   margin: 0 auto;
-  border-radius: 8px;
-  border: none;
-  background: rgba(15, 19, 42, 0.1);
+  border-radius: 4px;
+  background: white;
+  outline: 0;
   color: rgba(15, 19, 42, 0.3);
   padding: 0 0 0 15px;
   font-size: 14px;
@@ -109,9 +109,9 @@ form .input__block input.repeat__password {
   opacity: 0;
   display: none;
   transition: 0.2s linear;
-}
+}   
 form .signin__btn {
-  background: #e91e63;
+  background: #5b90f0;
   color: white;
   display: block;
   width: 92.5%;
@@ -123,7 +123,6 @@ form .signin__btn {
   cursor: pointer;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0 15px 30px rgba(233, 30, 99, 0.36);
   transition: 0.2s linear;
 }
 form .signin__btn:hover {
@@ -163,9 +162,9 @@ form .signin__btn:hover {
 
 .google__btn,
 .github__btn,
-.kakao__btn {
-  display: block;
-  width: 90%;
+.kakao__btn,
+.naver__btn {
+  width: 100px;
   max-width: 680px;
   margin: 20px auto;
   height: 50px;
@@ -186,6 +185,13 @@ form .signin__btn:hover {
 
 .kakao__btn {
   background: yellow;
+  color: white;
+  box-shadow: 0 15px 30px rgba(91, 144, 240, 0.36);
+  transition: 0.2s linear;
+}
+
+.naver__btn {
+  background: green;
   color: white;
   box-shadow: 0 15px 30px rgba(91, 144, 240, 0.36);
   transition: 0.2s linear;
@@ -212,36 +218,35 @@ form .signin__btn:hover {
   font-size: 20px;
   padding: 0 5px 0 0;
 }
-.google__btn.github__btn:hover,
-.github__btn.github__btn:hover {
-  box-shadow: 0 0 0 rgba(37, 40, 45, 0);
+
+div.onlinelogin ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 0 3rem;
+
 }
 
-footer p {
-  text-align: center;
+ul, ol {
+  list-style-type: none;
 }
-footer p .fa {
-  color: #e91e63;
+
+.onlinelogin ul li.ico1 {
+  background-position: 1px -1697px;
 }
-footer p a {
+
+.onlinelogin ul li.ico2 {
+  background-position: -108px -1697px;
+}
+
+.onlinelogin ul li {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  background-image: url("https://actual1.onlinetour.co.kr/web/img/common/icon_set1.png");
+}
+.onlinelogin ul li a {
   text-decoration: none;
-  font-size: 17px;
-  margin: 0 5px;
+  color: inherit;
 }
-footer p a .fa-facebook {
-  color: #3b5998;
-}
-footer p a .fa-twitter {
-  color: #1da1f2;
-}
-footer p a .fa-instagram {
-  color: #f77737;
-}
-footer p a .fa-linkedin {
-  color: #0077b5;
-}
-footer p a .fa-behance {
-  color: #1769ff;
-}
-
-/*# sourceMappingURL=login.css.map */
