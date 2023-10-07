@@ -166,36 +166,19 @@ div.onlinelogin ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 2rem;
   padding: 0 3rem;
-
+  margin-right: 200px;
 }
 
 ul, ol {
   list-style-type: none;
 }
 
-.onlinelogin ul li.ico1 {
-  background-position: 1px -1697px;
-}
 
-.onlinelogin ul li.ico2 {
-  background-position: -108px -1697px;
-}
-
-.onlinelogin ul li.ico3 {
-  background-position: -215px -1697px;
-}
 
 .onlinelogin ul li {
   width: 70px;
   height: 70px;
-  overflow: hidden;
-  background-image: url("https://actual1.onlinetour.co.kr/web/img/common/icon_set1.png");
-}
-.onlinelogin ul li a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .btn_more2 {
