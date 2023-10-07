@@ -160,64 +160,7 @@ form .signin__btn:hover {
   width: 45%;
 }
 
-.google__btn,
-.github__btn,
-.kakao__btn,
-.naver__btn {
-  width: 100px;
-  max-width: 680px;
-  margin: 20px auto;
-  height: 50px;
-  cursor: pointer;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  border-radius: 8px;
-  border: none;
-  line-height: 40px;
-}
-.google__btn.google__btn,
-.github__btn.google__btn {
-  background: #5b90f0;
-  color: white;
-  box-shadow: 0 15px 30px rgba(91, 144, 240, 0.36);
-  transition: 0.2s linear;
-}
 
-.kakao__btn {
-  background: yellow;
-  color: white;
-  box-shadow: 0 15px 30px rgba(91, 144, 240, 0.36);
-  transition: 0.2s linear;
-}
-
-.naver__btn {
-  background: green;
-  color: white;
-  box-shadow: 0 15px 30px rgba(91, 144, 240, 0.36);
-  transition: 0.2s linear;
-}
-
-.google__btn.google__btn .fa,
-.github__btn.google__btn .fa {
-  font-size: 20px;
-  padding: 0 5px 0 0;
-}
-.google__btn.google__btn:hover,
-.github__btn.google__btn:hover {
-  box-shadow: 0 0 0 rgba(91, 144, 240, 0);
-}
-.google__btn.github__btn,
-.github__btn.github__btn {
-  background: #25282d;
-  color: white;
-  box-shadow: 0 15px 30px rgba(37, 40, 45, 0.36);
-  transition: 0.2s linear;
-}
-.google__btn.github__btn .fa,
-.github__btn.github__btn .fa {
-  font-size: 20px;
-  padding: 0 5px 0 0;
-}
 
 div.onlinelogin ul{
   display: flex;
@@ -240,6 +183,10 @@ ul, ol {
   background-position: -108px -1697px;
 }
 
+.onlinelogin ul li.ico3 {
+  background-position: -215px -1697px;
+}
+
 .onlinelogin ul li {
   width: 70px;
   height: 70px;
@@ -249,4 +196,20 @@ ul, ol {
 .onlinelogin ul li a {
   text-decoration: none;
   color: inherit;
+}
+
+.btn_more2 {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 54px;
+  display: block;
+  width: 100%;
+  border: 1px solid #adb1b6;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #020219;
+  font-weight: 700;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
 }
